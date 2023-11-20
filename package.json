@@ -1,0 +1,15 @@
+{
+  "name": "yt-to-transcript",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "filenamify": "^6.0.0",
+    "youtube-caption-extractor": "^1.4.3"
+  }
+}
